@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.image-container{
+    margin:2px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding:5px;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin:5px;
+    border:2px solid black;
+    border-radius: 5px;
+
+}
+.title{
+    text-align: center;
+}
+
+.navbar{
+    
+    display: flex;
+    background: radial-gradient(circle, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+    justify-content:space-between;
+    align-items: center;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.search{
+    width: 22vw;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    
+    font-family: 'Rampart One', cursive;
+    color: rgb(245, 239, 230);
+}
+.navbar input[type="text"]{
+    width: 200px;
+    height: 2em;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.navbar input[type="text"]:active{
+    border: none;
+}
+button{
+    padding:5px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: blanchedalmond;
+    color:black
+
+}
